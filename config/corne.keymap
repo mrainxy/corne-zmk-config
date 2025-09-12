@@ -333,14 +333,7 @@
         };
     };
 
-    combos {
-        compatible = "zmk,combos";
-
-        f3 {
-            bindings = <&kp F3>;
-            key-positions = <2 37>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     keymap {
         compatible = "zmk,keymap";
