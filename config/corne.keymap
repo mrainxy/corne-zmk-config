@@ -269,10 +269,10 @@
             label = "JS";
         };
 
-        ld: ld {
+        lmd: ld {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp FSLH &kp FSLH &kp L &kp D>;
+            bindings = <&kp FSLH &kp FSLH &kp L &kp M &kp D>;
             label = "LD";
         };
 
@@ -290,10 +290,10 @@
             label = "DS";
         };
 
-        lx: lx {
+        lmx: lx {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp FSLH &kp FSLH &kp L &kp X>;
+            bindings = <&kp FSLH &kp FSLH &kp L &kp M &kp X>;
             label = "LX";
         };
 
@@ -318,10 +318,10 @@
             label = "HE";
         };
 
-        lm: lm {
+        cq: lm {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp FSLH &kp L &kp M>;
+            bindings = <&kp FSLH &kp C &kp Q>;
             label = "LM";
         };
 
@@ -398,8 +398,8 @@
         symbol_layer {
             bindings = <
 &none  &dw  &dui   &cuo   &ax   &ts     &bt BT_CLR     &bt BT_SEL 0  &bt BT_SEL 1     &bt BT_SEL 2       &bt BT_SEL 3  &sys_reset
-&ld    &bq  &bqsj  &bqdw  &zw   &yd     &kp RA(GRAVE)  &kp RC(K)     &kp RS(ENTER)    &kp RC(ENTER)      &m1           &he
-&lx    &ys  &ks    &ds    &hzq  &hzh    &kp RIGHT_ALT  &none         &kp C_VOLUME_UP  &kp C_VOLUME_DOWN  &kp RG(I)     &lm
+&lmd   &bq  &bqsj  &bqdw  &zw   &yd     &kp RA(GRAVE)  &kp RC(K)     &kp RS(ENTER)    &kp RC(ENTER)      &m1           &he
+&lmx   &ys  &ks    &ds    &hzq  &hzh    &kp RIGHT_ALT  &none         &kp C_VOLUME_UP  &kp C_VOLUME_DOWN  &kp RG(I)     &cq
                    &gs    &jt   &sx     &none          &none         &none
             >;
         };
