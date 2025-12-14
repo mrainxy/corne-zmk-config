@@ -411,10 +411,19 @@
 
         symbol_layer {
             bindings = <
-&none  &dw  &dui   &cuo   &ax   &ts     &bt BT_CLR     &bt BT_SEL 0  &bt BT_SEL 1     &bt BT_SEL 2       &bt BT_SEL 3  &sys_reset
-&lmd   &bq  &bqsj  &bqdw  &zw   &yd     &kp RA(GRAVE)  &kp RC(K)     &kp RS(ENTER)    &kp RC(ENTER)      &m1           &he
-&lmx   &ys  &ks    &ds    &hzq  &hzh    &kp RIGHT_ALT  &none         &kp C_VOLUME_UP  &kp C_VOLUME_DOWN  &kp RG(I)     &cq
-                   &gs    &jt   &sx     &none          &none         &none
+&none  &dw  &dui   &cuo   &ax   &ts     &bt BT_CLR     &bt BT_SEL 0   &bt BT_SEL 1     &bt BT_SEL 2       &bt BT_SEL 3  &sys_reset
+&lmd   &bq  &bqsj  &bqdw  &zw   &yd     &none          &kp RC(K)      &kp RS(ENTER)    &kp RC(ENTER)      &m1           &he
+&lmx   &ys  &ks    &ds    &hzq  &hzh    &kp RIGHT_ALT  &kp RA(GRAVE)  &kp C_VOLUME_UP  &kp C_VOLUME_DOWN  &kp RG(I)     &cq
+                   &gs    &jt   &sx     &none          &none          &none
+            >;
+        };
+
+        layer_5 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
