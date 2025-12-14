@@ -402,7 +402,7 @@
 
         mark_layer {
             bindings = <
-&kp TILDE  &kp COLON        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp CARET      &kp GRAVE    &kp RA(GRAVE)  &kp RC(HOME)  &kp PG_UP         &kp PG_DN          &kp RC(END)      &none
+&kp TILDE  &kp COLON        &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp CARET      &kp GRAVE    &none          &kp RC(HOME)  &kp PG_UP         &kp PG_DN          &kp RC(END)      &none
 &kp AT     &kp EXCLAMATION  &kp HASH              &kp SLASH              &kp AMPERSAND  &excel       &qq            &kp HOME      &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp END          &kp PERCENT
 &kp UNDER  &kp PIPE         &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp BACKSLASH  &word        &kp RIGHT_ALT  &kp LEFT      &kp UP_ARROW      &kp DOWN_ARROW     &kp RIGHT_ARROW  &none
                                                   &xs                    &sf            &jw          &none          &none         &none
