@@ -335,7 +335,7 @@
         douyin: douyin {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp SLASH &kp D &kp O &kp U>;
+            bindings = <&kp SLASH &kp D &kp Y>;
             label = "DOUYIN";
         };
 
@@ -344,6 +344,13 @@
             #binding-cells = <0>;
             bindings = <&kp SLASH &kp B &kp I>;
             label = "BILI";
+        };
+
+        db: db {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp SLASH &kp D &kp B>;
+            label = "DB";
         };
     };
 
@@ -378,7 +385,7 @@
             display-name = "Lower";
             bindings = <
 &bili       &douyin      &kp LC(UP)      &kp LC(DOWN)     &kp TAB           &kp LG(E)        &none          &kp N1     &kp N2     &kp N3      &kp N4  &kp BSPC
-&ahk        &kp KP_PLUS  &kp KP_MINUS    &kp KP_MULTIPLY  &kp KP_SLASH      &kp EQUAL        &kp DOLLAR     &kp N5     &kp N6     &kp N7      &kp N8  &kp PERCENT
+&db         &kp KP_PLUS  &kp KP_MINUS    &kp KP_MULTIPLY  &kp KP_SLASH      &kp EQUAL        &kp DOLLAR     &kp N5     &kp N6     &kp N7      &kp N8  &kp PERCENT
 &kp LC(F8)  &kp LC(N1)   &kp LC(LA(N1))  &kp LC(N2)       &kp LA(NUMBER_2)  &kp LC(LA(X))    &kp RIGHT_ALT  &kp N9     &kp COMMA  &kp PERIOD  &kp N0  &none
                                          &kp LEFT_SHIFT   &none             &none            &kp TAB        &kp RCTRL  &kp ENTER
             >;
@@ -393,9 +400,9 @@
 
             display-name = "Raise";
             bindings = <
-&none             &kp F1  &kp F2   &kp F3     &kp F4   &kp PSCRN        &none          &q1    &q2    &q3  &ph    &none
-&kp LC(NUMBER_6)  &kp F5  &kp F6   &kp F7     &kp F8   &kp LC(EQUAL)    &yjk           &yx    &ym    &fm  &te    &none
-&none             &kp F9  &kp F10  &kp F11    &kp F12  &vj              &kp RIGHT_ALT  &xb    &of    &po  &none  &none
+&none             &kp F1  &kp F2   &kp F3     &kp F4   &kp PSCRN        &none          &q1    &q2    &q3  &ph   &none
+&kp LC(NUMBER_6)  &kp F5  &kp F6   &kp F7     &kp F8   &kp LC(EQUAL)    &yjk           &yx    &ym    &fm  &te   &none
+&none             &kp F9  &kp F10  &kp F11    &kp F12  &vj              &kp RIGHT_ALT  &xb    &of    &po  &ahk  &none
                                    &kp LCTRL  &ma      &as              &none          &none  &none
             >;
         };
